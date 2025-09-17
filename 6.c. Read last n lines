@@ -1,0 +1,7 @@
+def file_read_from_tail(fname, lines):
+    with open(fname,"r") as f:
+    all_lines=f.readlines()
+      for line in all_lines[-lines:]:
+          print(line,end=' ')
+
+file_read_from_tail('sunflower.txt'3)
