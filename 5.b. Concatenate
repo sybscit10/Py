@@ -1,0 +1,7 @@
+a={101:'abc',102:'pqr',103:'xyz'}
+b={'Name':'Namish','Surname':'Shaikh'}
+c={'Department':'BMS','Year':'SY'}
+d={}
+for c in a,b,c
+    d.update(c)
+print(d)
