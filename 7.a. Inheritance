@@ -1,0 +1,21 @@
+class Shape:
+      author='XYZ'
+      def_init_(self,x,y):
+         self.x=x
+         self.y=y
+      def area(self):
+         a=self.x*self.y
+         print('Area of reactangle:',a)
+         print('Author:',shape.author)
+class Square(Shape)
+      def_init_(self.x):
+          self.x=x
+      def area(self):
+          a = self.x* self.x
+          print('Area of a square:', a)
+          print('Author:', Shape.author)
+rect=Shape (2, 10)
+rect.area()
+
+sq=Square(4)
+sq.area()
