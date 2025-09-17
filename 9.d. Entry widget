@@ -1,0 +1,10 @@
+import tkinter as tk
+
+top = tk.Tk()
+L1 = tk.Label(top, text="User Name")
+Ll.pack(side=tk.LEFT)
+
+El = tk.Entry (top, bd=5)
+El.pack(side=tk.RIGHT)
+
+top.mainloop()
