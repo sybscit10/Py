@@ -1,0 +1,21 @@
+class Student:
+    def __init__(self, name, gender, course, college):
+        self.name = name
+        self.gender = gender
+        self.course = course
+        self.college = college
+
+    def display(self):
+        print("\nStudent Information:")
+        print("Name:", self.name)
+        print("Gender:", self.gender)
+        print("Course:", self.course)
+        print("College:", self.college)
+
+name = input("Enter student name: ")
+gender = input("Enter student gender: ")
+course = input("Enter course name: ")
+college = input("Enter college name: ")
+
+student1 = Student(name, gender, course, college)
+student1.display() 
