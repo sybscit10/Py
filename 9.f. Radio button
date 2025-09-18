@@ -4,7 +4,7 @@ def sel():
     selection = "You selected the option" + str(var.get())
     label.config(text = selection)
     
-root tk.Tk()
+root = tk.Tk()
 var = tk.IntVar()
 
 R1 = tk.Radiobutton (root, text="Option 1", variable=var, value=1, command=sel) 
