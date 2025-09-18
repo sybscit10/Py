@@ -1,5 +1,5 @@
 class Numbers (object):
-      def_init_(self, x, y):
+      def _init_(self, x, y)
         self.x=x
         self.y=y
         
