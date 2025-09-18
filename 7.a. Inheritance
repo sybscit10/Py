@@ -1,6 +1,6 @@
 class Shape:
       author='XYZ'
-      def _init_(self,x,y):
+      def _init_(self,x,y)
          self.x=x
          self.y=y
       def area(self):
