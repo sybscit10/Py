@@ -3,5 +3,5 @@ print('Ascending order:')
 for c,b in sorted (a.items()):
      print (c,b)
 print ('Descending order:')
-for d,e in sorted (a.items(), reverse: True)
+for d,e in sorted (a.items(), reverse = True)
 print (d,e)
