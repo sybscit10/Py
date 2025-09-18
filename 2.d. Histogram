@@ -2,4 +2,4 @@ def histogram(l1):
     for i in 11:
         print('*'*i)
 l1=[2,1,4,5]
-histrogram(l1)
+histogram(l1)
