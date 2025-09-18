@@ -6,7 +6,7 @@ count = 2
 
 if nterms<= 0:
  print("Please enter a positive integer")
-elifnterms == 1:
+elif nterms == 1:
  print("Fibonacci sequence upto",nterms,":")
  print(n1)
 else:
