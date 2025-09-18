@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 top = tk.Tk()
   
-def helloCallBack();
+def helloCallBack()
     messagebox.showinfo("Hello Python", "Python was developed by Guido Van Rossum")
       
 B = tk.Button(top, text="open", command=helloCallBack)
