@@ -1,21 +1,24 @@
-class Shape:
-      author='XYZ'
-      def _init_(self,x,y)
-         self.x=x
-         self.y=y
-      def area(self):
-         a=self.x*self.y
-         print('Area of reactangle:',a)
-         print('Author:',shape.author)
-class Square(Shape)
-      def _init_(self.x):
-          self.x=x
-      def area(self):
-          a = self.x* self.x
-          print('Area of a square:', a)
-          print('Author:', Shape.author)
-rect=Shape (2, 10)
-rect.area()
+class Shape:   
+# Parent class
+    pass
 
-sq=Square(4)
-sq.area()
+
+class Square(Shape):
+    def area(self, side):
+        return side * side
+
+
+class Rectangle(Shape):
+    def area(self, l, b):
+        return l * b
+
+
+
+
+# Using the classes
+sq = Square()
+print("Area of Square =", sq.area(5))
+
+
+rect = Rectangle()
+print("Area of Rectangle =", rect.area(6, 3))
