@@ -1,15 +1,13 @@
-class Numbers (object):
-      def _init_(self, x, y)
-        self.x=x
-        self.y=y
-        
-def add (self):
-    return self.x + self.y
-    
-def multiply(self):
-    MULTIPLIER = 5
-    return self.x* MULTIPLIER
-    
-num Numbers (3,5)
-print("Additional:", num.add())
-print("Multiplication with multiplier:", num.multiply())
+class Multiplier:
+    def multiply(self, a, b):
+        return a * b
+
+
+m = Multiplier()
+
+
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+
+
+print("Multiplication of", x, "and", y, "=", m.multiply(x, y))
