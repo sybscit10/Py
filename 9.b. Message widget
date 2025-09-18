@@ -1,7 +1,7 @@
 import tkinter as tk
 root = tk.Tk()
 var = tk.StringVar()
-label = tk.Message(root, text variable=var, relief-tk.RAISED )
+label = tk.Message(root, textvariable=var, relief-tk.RAISED )
 var.set("Hey!? How are you doing?")
 label.pack()
 label.config(width=500)
