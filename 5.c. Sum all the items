@@ -1,2 +1,2 @@
 a={101:2,102:16,103:21,104:45}
-print(sum(a.value()))
+print(sum(a.values()))
